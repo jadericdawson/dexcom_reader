@@ -140,7 +140,7 @@ Whenever the script detects an out-of-range BG, it will send a POST request with
 2.  Run the script:
     
     ```bash
-    python main.py
+    python3 dexcom_reader.py
     ```
     
     *(Adjust for the actual filename if it’s something else.)*

@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+pydexcom
+pytz
+python-dotenv
+requests

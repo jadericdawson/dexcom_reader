@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dexcom_reader"
+version = "0.1.0"
+description = "A Dexcom glucose monitoring and alerting system with multiple time-scale viewers, trendline, and Home Assistant Alerting"
+readme = "README.md"
+requires-python = ">=3.7"
+
+
+# Author details can be provided here or in separate metadata
+authors = [
+  { name = "Jaderic Dawson", email = "jadericdawson@gmail.com" }
+]
+
+
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pydexcom",
+  "pytz",
+  "python-dotenv",
+  "requests"
+]
+
+
+[project.urls]
+"Source Code" = "https://github.com/jadericdawson/dexcom_reader"
